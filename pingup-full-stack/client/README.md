@@ -1,12 +1,28 @@
-# React + Vite
+# Full Stack Social Media App (MERN)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack social media application built using the *MERN Stack (MongoDB, Express.js, React.js, Node.js)*.  
+This project includes authentication, real-time messaging, posting, following system, and media uploads.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- User Authentication (Sign Up / Sign In / Profile Management)  
+- Real-time Chat and Messaging  
+- Post & Feed system (text & images)  
+- Follow / Unfollow users  
+- Friend Request Management  
+- Story / Status Uploads  
+- Discover new users & search functionality  
+- Media storage & optimization with ImageKit  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- *Frontend*: React.js, Vite  
+- *Backend*: Node.js, Express.js  
+- *Database*: MongoDB  
+- *Authentication*: Clerk  
+- *Background Jobs*: Inngest  
+- *Media Storage*: ImageKit  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Setup
+### 1. Clone the repository
+```bash
+git clone https://github.com/18Aishwarya14/Pingup-Social-Media-.git
+cd Pingup-Social-Media
